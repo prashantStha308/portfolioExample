@@ -1,0 +1,28 @@
+{
+    "imgSources":[
+        {
+            "imgSrc": "./assets/images/CartoonizingFaces.png",
+            "id": "1art"
+        },
+        {
+            "imgSrc":"./assets/images/Sketch.png",
+            "id": "2art"
+        },
+        {
+            "imgSrc":"./assets/images/FireGirl.png",
+            "id": "3art"
+        },
+        {
+            "imgSrc":"./assets/images/Nezuko.png",
+            "id": "4art"
+        },
+        {
+            "imgSrc": "./assets/images/Yor.png",
+            "id": "5art"
+        },
+        {
+            "imgSrc": "./assets/images/KLEE.png",
+            "id": "6art"
+        }
+    ]
+}

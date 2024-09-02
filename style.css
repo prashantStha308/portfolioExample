@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+:root{
+    --backgroundColor: #0A0A0A;
+    --backgroundAlt : #1b181f;
+
+    --textColor: white;
+    --colorPurple : #7a14ff ;
+}
+
+body{
+    background-color: var(--backgroundColor);
+    color: var(--textColor);
+}
+
+.purpleText{
+    color: var(--colorPurple);
+    font-weight: bolder;
+}
+
+#website{
+    margin: 0;
+    padding: 5px;
+    overflow-x: hidden;
+    display: grid;
+
+}
+
+a , li{
+    list-style: none;
+    text-decoration: none;
+    color: var(--textColor);
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 0;
+}
+
+.nav-list, .navigation{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    padding: 0;
+}
+
+.navigation{
+    width: 50%;
+}
+
+.nav-list{
+    width: 100%;
+}
+
+.seperator{
+    width: 55%;
+    padding: 0;
+    margin-top: 0;   
+}
+
+/* Hero Section */
+.hero{
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-wrapper{
+    margin-top: 5%;
+    display: grid;
+    justify-items: center;
+    width: 50%;
+}
+
+.hero-text{
+    width: 80%;
+}
+
+.headingText{
+    font-size: 5rem;
+    font-weight: 100;
+    padding: 0;
+    margin: 0;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--colorPurple);
+}
+
+.hero-para{
+    font-size: 1.3rem;
+    margin: 30px 0 50px 0;
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: lighter;
+    font-style: normal;
+    line-height: 30px;
+    position: relative;
+}
+
+.hero-img-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.hero-img{
+    width: 50%;
+}
