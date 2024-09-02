@@ -1,6 +1,3 @@
-require('dotenv').config();//invoking dotenv to hide PAT key
-const apiToken = process.env.API_TOKEN;
-
 // Check if the page exists
 async function checkPage(repoName) {
     try {
@@ -68,7 +65,7 @@ async function createTile(repo) {
 
 // Fetch repositories for a user
 async function fetchUserRepos() {
-    const token = apiToken;
+    const token = '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';
 
     try {
         const response = await fetch(`https://api.github.com/users/prashantStha308/repos`, {
