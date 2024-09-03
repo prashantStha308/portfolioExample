@@ -250,6 +250,7 @@ header{
     display: grid;
     width: 70%;
     text-align: center;
+    margin: 0 0 3% 0;
 }
 
 .project-text>.headingText{
@@ -311,12 +312,17 @@ header{
     color: var(--colorPurple);
 }
 
-.project-btn{
+.btn{
     position: absolute;
     box-sizing: border-box;
     bottom: 10%;
     right: 5%;
-    padding: 10px 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.project-btn{
+    padding: 10px 20px;
     background-color: var(--colorPurple);
     color: var(--textColor);
     border: none;
