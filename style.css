@@ -227,7 +227,6 @@ header{
 }
 
 .about-img-wrapper{
-    box-sizing: border-box;
     width: 50%;
     height: 100%;
     display: flex;
@@ -258,9 +257,7 @@ header{
 .projects-wrapper{
     width: 100%;
     display: grid;
-    align-items: center;
     justify-items: center;
-    justify-content: stretch;
 }
 
 .project-text{
@@ -282,7 +279,6 @@ header{
     box-sizing: border-box;
     border-radius: 7px;
     display: grid;
-    justify-content: center;
     justify-items: center;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -295,17 +291,14 @@ header{
     border-radius: 3px;
     display: flex;
     margin: 15px 5px;
-    display: flex;
     justify-content: flex-start;
 }
 
 .tileText{
     margin: 0 0 0 5%;
     padding: 10px;
-    box-sizing: border-box;
     width: 70%;
     display: grid;
-    justify-content: space-between;
 }
 
 .repoName{
@@ -314,9 +307,6 @@ header{
     font-family: Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
     margin: 0;
-}
-.repoName:hover{
-    text-decoration: underline;
 }
 
 .repoDescription{
@@ -331,7 +321,6 @@ header{
 
 .btn{
     position: absolute;
-    box-sizing: border-box;
     bottom: 10%;
     right: 5%;
     display: flex;
@@ -339,7 +328,6 @@ header{
 }
 
 .project-btn{
-    box-sizing: border-box;
     padding: 10px 20px;
     background-color: var(--colorPurple);
     color: var(--textColor);
@@ -365,15 +353,7 @@ header{
     display: grid;
     justify-items: center;
     width: 100%;
-    box-sizing: border-box;
     min-height: 100svh;
-}
-
-.contact-text-container{
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
 }
 
 .contact-form{
@@ -381,16 +361,18 @@ header{
     width: 30%;
     height: 90%;
     display: grid;
-    justify-items: center;
     gap: 40px;
+}
+
+.contact-text-container{
+    border-bottom: 3px solid var(--colorPurple);
+    border-radius: 3px;
 }
 
 .form-element{
     display: grid;
     width: 100%;
     height: auto;
-    justify-items: flex-start;
-    align-items: center;
     gap: 5px;
 }
 
@@ -428,6 +410,7 @@ header{
 
 /* Footer */
 footer {
+    margin: 10% 0 0 0;
     text-align: center;
     padding: 10px;
     background: var(--colorPurple);
