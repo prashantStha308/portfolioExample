@@ -149,7 +149,7 @@ header{
     font-weight: 100;
     padding: 0;
     margin: 0;
-    font-family:  Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:  Ubuntu, Cantarell, sans-serif;
     color: var(--colorPurple);
     transition: all 0.3s ease-in;
 }
@@ -187,7 +187,7 @@ header{
 /* Start of About Page */
 
 #about{
-    margin: 15% 0 15% 0 ;
+    margin: 15% 0 10% 0 ;
 }
 
 .about-wrapper{
@@ -281,6 +281,7 @@ header{
     display: grid;
     justify-items: center;
     grid-template-columns: repeat(2, 1fr);
+    position: relative;
 }
 
 .project-tile{
@@ -407,10 +408,13 @@ header{
     display: flex;
     justify-content: flex-end;
 }
+input[type="button"]{
+    max-height: 45px;
+}
 
 /* Footer */
 footer {
-    margin: 10% 0 0 0;
+    margin: 3% 0 0 0;
     text-align: center;
     padding: 10px;
     background: var(--colorPurple);
