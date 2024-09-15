@@ -59,7 +59,7 @@
                     <div id="about-img"></div>
                 </div>
                 <article class="about-text">
-                    <h1 class="headingText about-heading">About Me</h1>
+                    <h1 class="headingText small-heading">About Me</h1>
                     <section class="about-para">
                         <p class="para">
                             I'm <span class="purpleText">Prashant Shrestha</span>, a passionate IT student who  dwells into anything visual.
@@ -161,6 +161,11 @@
             </div>
          </section>
 
+         <div class="clock-wrapper">
+            <label for="date" class="headingText small-heading"> <span class="purpleText"> Date </span> </label>
+            <input type="date" name="" id="date">
+         </div>
+
          <section id="footer">
             <footer>
                 <p>&copy; 2024 My Portfolio. All rights reserved.</p>
@@ -168,6 +173,17 @@
          </section>
     </main>
 
-    <script src="./script.js"></script>
+    <script>
+
+        function goToTop() {
+            // The offsetTop returns the value top position of the element
+            let scrollDiv = document.getElementById("header").offsetTop;
+        
+            // The windows.scrollTo() method moves the page to a destination element, in this case, the scrollDiv which has the offsetTop value of the header element
+            window.scrollTo({ top: scrollDiv, behavior: "smooth" });
+        }
+
+
+    </script>
 </body>
 </html>
